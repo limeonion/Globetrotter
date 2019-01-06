@@ -1,0 +1,9 @@
+1. Telling django that u have made some changes in model and that you’d like the changes to be stored as a migration.
+-> python manage.py makemigrations maps  #to create migrations for those changes
+
+
+2. See the migrations made
+-> python manage.py sqlmigrate polls 0001
+
+2. Apply migrations to Database
+-> python manage.py migrate
